@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html,body {
+ width: 100%;
+ height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+
+#cursor{
+    width: 4vh;
+    height: 4vh;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cursor h3{
+    font-size: 1vh;
+    font-weight: 600;
+}
+
+#img{
+    width: 40%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+#img img{
+    width: 100%;
+    height: 50vh;
+}
